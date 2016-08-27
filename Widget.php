@@ -1,5 +1,5 @@
 <?php
-namespace webcreator\OwlCarousel;
+namespace webcreator\owl;
 
 use Yii;
 use yii\base\Widget as BaseWidget;

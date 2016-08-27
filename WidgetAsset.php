@@ -1,10 +1,10 @@
 <?php
-namespace webcreator\OwlCarousel;
+namespace webcreator\owl;
 use yii\web\AssetBundle;
 
 class WidgetAsset extends AssetBundle
 {
-    public $sourcePath = '@webcreator/OwlCarousel/assets';
+    public $sourcePath = '@webcreator/owl/assets';
     public $js = [
         'plugins/owl-carousel/owl.carousel.js',
     ];
