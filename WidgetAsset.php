@@ -4,15 +4,16 @@ use yii\web\AssetBundle;
 
 class WidgetAsset extends AssetBundle
 {
-    public $sourcePath = '@webcreator/owl/assets';
+    public $sourcePath = "@webcreator/owl/assets";
     public $js = [
-        'plugins/owl-carousel/owl.carousel.js',
+        "plugins/owl-carousel/owl.carousel.js",
     ];
     public $css = [
-        'plugins/owl-carousel/owl.carousel.css',
-        'custom.css'
+        "plugins/owl-carousel/owl.carousel.css",
+        "plugins/font-awesome/css/font-awesome.min.css",
+        "custom.css"
     ];
     public $depends = [
-        'yii\web\JqueryAsset'
+        "yii\web\JqueryAsset"
     ];
 }
