@@ -7,8 +7,7 @@
     margin-bottom: 0;
     text-transform: uppercase;
 }
-
-.masking-hover, .imageBox .productImage .productMasking, .whiteSection .featuredProducts .slide .productImage .productMasking, .mainContent .featuredProducts .slide .productImage .productMasking, .productsContent .productBox .productImage .productMasking, .whiteSection .featuredCollection .thumbnail .imageWrapper .masking, .mainContent .featuredCollection .thumbnail .imageWrapper .masking, .productListSingle .media .media-left .maskingImage {
+.mainContent .featuredProducts .slide .productImage .productMasking {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,41 +21,30 @@
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
-.content-center, .imageBox .productImage .productMasking ul, .whiteSection .featuredProducts .slide .productImage .productMasking ul, .mainContent .featuredProducts .slide .productImage .productMasking ul, .productsContent .productBox .productImage .productMasking ul, .masking-btn, .whiteSection .featuredCollection .thumbnail .imageWrapper .masking .viewBtn, .mainContent .featuredCollection .thumbnail .imageWrapper .masking .viewBtn, .productListSingle .media .media-left .maskingImage .viewBtn {
+.mainContent .featuredProducts .slide .productImage .productMasking ul {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 54%;
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
-.thumbnail {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-}
-.thumbnail .caption {
-    padding: 20px 0 0 0;
-}
-
-.imageBox, .whiteSection .featuredProducts .slide, .mainContent .featuredProducts .slide, .productsContent .productBox {
+.mainContent .featuredProducts .slide {
     height: auto;
     display: block;
     cursor: pointer;
     margin-bottom: 80px;
     margin-bottom: 30px;
 }
-.imageBox .productImage, .whiteSection .featuredProducts .slide .productImage, .mainContent .featuredProducts .slide .productImage, .productsContent .productBox .productImage {
+.mainContent .featuredProducts .slide .productImage {
     position: relative;
     margin-bottom: 20px;
     display: block;
     overflow: hidden;
 }
-.imageBox .productImage img, .whiteSection .featuredProducts .slide .productImage img, .mainContent .featuredProducts .slide .productImage img, .productsContent .productBox .productImage img {
+.mainContent .featuredProducts .slide .productImage img {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -64,21 +52,21 @@
     transition: all 0.5s ease-in-out;
     width: 100%;
 }
-.imageBox .productImage:hover img, .whiteSection .featuredProducts .slide .productImage:hover img, .mainContent .featuredProducts .slide .productImage:hover img, .productsContent .productBox .productImage:hover img {
+.mainContent .featuredProducts .slide .productImage:hover img {
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-.imageBox .productImage .productMasking ul, .whiteSection .featuredProducts .slide .productImage .productMasking ul, .mainContent .featuredProducts .slide .productImage .productMasking ul, .productsContent .productBox .productImage .productMasking ul {
+.mainContent .featuredProducts .slide .productImage .productMasking ul {
     width: 157px;
     height: 42px;
 }
-.imageBox .productImage .productMasking ul li, .whiteSection .featuredProducts .slide .productImage .productMasking ul li, .mainContent .featuredProducts .slide .productImage .productMasking ul li, .productsContent .productBox .productImage .productMasking ul li {
-    padding: 0 4px;
+.mainContent .featuredProducts .slide .productImage .productMasking ul li {
+    padding:0;
 }
-.imageBox .productImage .productMasking ul li a, .whiteSection .featuredProducts .slide .productImage .productMasking ul li a, .mainContent .featuredProducts .slide .productImage .productMasking ul li a, .productsContent .productBox .productImage .productMasking ul li a {
+.mainContent .featuredProducts .slide .productImage .productMasking ul li a {
     width: 42px;
     height: 42px;
     padding: 0;
@@ -93,7 +81,7 @@
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.imageBox .productImage .productMasking ul li a i, .whiteSection .featuredProducts .slide .productImage .productMasking ul li a i, .mainContent .featuredProducts .slide .productImage .productMasking ul li a i, .productsContent .productBox .productImage .productMasking ul li a i {
+.mainContent .featuredProducts .slide .productImage .productMasking ul li a i {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -102,176 +90,56 @@
     font-size: 14px;
     color: #ffffff;
 }
-.imageBox .productImage .productMasking ul li a:hover, .whiteSection .featuredProducts .slide .productImage .productMasking ul li a:hover, .mainContent .featuredProducts .slide .productImage .productMasking ul li a:hover, .productsContent .productBox .productImage .productMasking ul li a:hover {
+.mainContent .featuredProducts .slide .productImage .productMasking ul li a:hover {
     background-color: #ffffff;
     border-color: #ffffff;
 }
-.imageBox .productImage .productMasking ul li a:hover i, .whiteSection .featuredProducts .slide .productImage .productMasking ul li a:hover i, .mainContent .featuredProducts .slide .productImage .productMasking ul li a:hover i, .productsContent .productBox .productImage .productMasking ul li a:hover i {
+.mainContent .featuredProducts .slide .productImage .productMasking ul li a:hover i {
     color: #47bac1;
 }
 @media (min-width: 480px) {
-    .imageBox .productImage, .whiteSection .featuredProducts .slide .productImage, .mainContent .featuredProducts .slide .productImage, .productsContent .productBox .productImage {
+    .mainContent .featuredProducts .slide .productImage {
         width: 100%;
         height: auto;
     }
 }
-.imageBox:hover .productMasking, .whiteSection .featuredProducts .slide:hover .productMasking, .mainContent .featuredProducts .slide:hover .productMasking, .productsContent .productBox:hover .productMasking {
+.mainContent .featuredProducts .slide:hover .productMasking {
     opacity: 1;
 }
-.imageBox:hover .productMasking ul, .whiteSection .featuredProducts .slide:hover .productMasking ul, .mainContent .featuredProducts .slide:hover .productMasking ul, .productsContent .productBox:hover .productMasking ul {
+.mainContent .featuredProducts .slide:hover .productMasking ul {
     -webkit-animation: itemMove 0.3s linear;
     animation: itemMove 0.3s linear;
 }
-.imageBox .productCaption, .whiteSection .featuredProducts .slide .productCaption, .mainContent .featuredProducts .slide .productCaption, .productsContent .productBox .productCaption {
+.mainContent .featuredProducts .slide .productCaption {
     width: 100%;
     display: block;
 }
-.imageBox .productCaption h5, .whiteSection .featuredProducts .slide .productCaption h5, .mainContent .featuredProducts .slide .productCaption h5, .productsContent .productBox .productCaption h5 {
+.mainContent .featuredProducts .slide .productCaption h5 {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-.imageBox .productCaption h3, .whiteSection .featuredProducts .slide .productCaption h3, .mainContent .featuredProducts .slide .productCaption h3, .productsContent .productBox .productCaption h3 {
+.mainContent .featuredProducts .slide .productCaption h3 {
     color: #c5c5c5;
     font-weight: 700;
     margin-bottom: 0;
 }
-
-.masking-btn, .whiteSection .featuredCollection .thumbnail .imageWrapper .masking .viewBtn, .mainContent .featuredCollection .thumbnail .imageWrapper .masking .viewBtn, .productListSingle .media .media-left .maskingImage .viewBtn {
-    width: 196px;
-    min-height: 55px;
-    border: 3px solid #ffffff;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 16px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0;
-    border-radius: 0;
-    padding: 0;
-    line-height: 55px;
-}
-.masking-btn:hover, .whiteSection .featuredCollection .thumbnail .imageWrapper .masking .viewBtn:hover, .mainContent .featuredCollection .thumbnail .imageWrapper .masking .viewBtn:hover, .productListSingle .media .media-left .maskingImage .viewBtn:hover {
-    background-color: #ffffff;
-    color: #47bac1;
-}
-
-.whiteSection, .mainContent {
+.mainContent {
     background-color: #ffffff;
 }
 @media (max-width: 479px) {
-    .whiteSection, .mainContent {
+    .mainContent {
         padding: 40px 0 40px 0;
     }
 }
 @media (min-width: 480px) {
-    .whiteSection, .mainContent {
+    .mainContent {
         padding: 90px 0 0 0;
     }
 }
 @media (min-width: 768px) {
-    .whiteSection, .mainContent {
+    .mainContent {
         padding: 90px 0 60px 0;
     }
-}
-.whiteSection .featuredCollection .thumbnail, .mainContent .featuredCollection .thumbnail {
-    cursor: pointer;
-}
-@media (max-width: 479px) {
-    .whiteSection .featuredCollection .thumbnail, .mainContent .featuredCollection .thumbnail {
-        margin-bottom: 40px !important;
-    }
-}
-@media (min-width: 480px) {
-    .whiteSection .featuredCollection .thumbnail, .mainContent .featuredCollection .thumbnail {
-        margin-bottom: 40px !important;
-    }
-}
-@media (min-width: 768px) {
-    .whiteSection .featuredCollection .thumbnail, .mainContent .featuredCollection .thumbnail {
-        margin-bottom: 88px;
-    }
-}
-.whiteSection .featuredCollection .thumbnail .imageWrapper, .mainContent .featuredCollection .thumbnail .imageWrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.whiteSection .featuredCollection .thumbnail .imageWrapper img, .mainContent .featuredCollection .thumbnail .imageWrapper img {
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    width: 100%;
-}
-.whiteSection .featuredCollection .thumbnail:hover .imageWrapper .masking, .mainContent .featuredCollection .thumbnail:hover .imageWrapper .masking {
-    opacity: 1;
-}
-.whiteSection .featuredCollection .thumbnail:hover .imageWrapper img, .mainContent .featuredCollection .thumbnail:hover .imageWrapper img {
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-.whiteSection .featuredCollection .thumbnail:hover .imageWrapper .viewBtn, .mainContent .featuredCollection .thumbnail:hover .imageWrapper .viewBtn {
-    -webkit-animation: itemMove 0.3s linear;
-    animation: itemMove 0.3s linear;
-}
-.whiteSection .featuredCollection .thumbnail .caption h4, .mainContent .featuredCollection .thumbnail .caption h4 {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-.whiteSection .featuredCollection .thumbnail:hover .caption h4, .mainContent .featuredCollection .thumbnail:hover .caption h4 {
-    color: #47bac1;
-}
-.whiteSection .latestArticles .thumbnail, .mainContent .latestArticles .thumbnail {
-    margin-bottom: 30px;
-}
-.whiteSection .latestArticles .thumbnail h5, .mainContent .latestArticles .thumbnail h5 {
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 18px;
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
-.whiteSection .latestArticles .thumbnail h5 a, .mainContent .latestArticles .thumbnail h5 a {
-    font-size: inherit;
-    letter-spacing: inherit;
-    color: #252525;
-}
-.whiteSection .latestArticles .thumbnail h5 span, .mainContent .latestArticles .thumbnail h5 span {
-    text-transform: capitalize;
-    color: #bcbcbc;
-}
-.whiteSection .latestArticles .thumbnail h5 span a, .mainContent .latestArticles .thumbnail h5 span a {
-    color: #bcbcbc;
-    text-decoration: underline !important;
-}
-.whiteSection .latestArticles .thumbnail span, .mainContent .latestArticles .thumbnail span {
-    text-transform: capitalize;
-    color: #bcbcbc;
-    display: block;
-    margin-bottom: 10px;
-}
-.whiteSection .latestArticles .thumbnail span a, .mainContent .latestArticles .thumbnail span a {
-    color: #bcbcbc;
-    text-decoration: underline !important;
-}
-.whiteSection .latestArticles .thumbnail img, .mainContent .latestArticles .thumbnail img {
-    width: 100%;
-}
-.whiteSection .latestArticles .thumbnail p, .mainContent .latestArticles .thumbnail p {
-    margin-bottom: 0;
 }

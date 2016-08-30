@@ -9,8 +9,8 @@ class WidgetAsset extends AssetBundle
         "plugins/owl-carousel/owl.carousel.js",
     ];
     public $css = [
-        "plugins/owl-carousel/owl.carousel.css",
         "plugins/font-awesome/css/font-awesome.min.css",
+        "plugins/owl-carousel/owl.carousel.css",
         "custom.css"
     ];
     public $depends = [
